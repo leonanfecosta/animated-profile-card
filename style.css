@@ -73,7 +73,7 @@ body {
   text-align: center;
   width: 100%;
   transition: 0.5s;
-  transform: translateY(150px);
+  transform: translateY(130px);
 }
 
 .card:hover .card-content .details {
@@ -99,14 +99,14 @@ body {
   margin: 20px 0;
 }
 
-.card .card-content .details .data > h3 {
-  font-size: 1em;
+.card .card-content .details .data > i {
+  font-size: 1.5em;
   color: #555;
   line-height: 1.2em;
   font-weight: 600;
 } 
 
-.card .card-content .details .data > h3 > span {
+.card .card-content .details .data > i > span {
   font-size: 0.85em;
   font-weight: 400;
   opacity: 0.5;
